@@ -23,7 +23,7 @@ $result= mysqli_query($connection, $sql);
         <input type="text" name="forma_pago" required><br><br>
 
         <label>Total:</label>
-        <input type="number" name="total" required><br><br>
+        <input type="number" name="total" min= "0" required><br><br>
 
         <label>Cliente:</label>
         <select name="cod_cliente">
