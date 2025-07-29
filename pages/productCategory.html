@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar producto según categoria</title>
+</head>
+<body>
+    <h1>Categoria</h1>
+
+    <form action="../php/product/listProductCategory.php" method="post">
+        <label>Categoria:</label>
+        <select name="categoria">
+            <option>Computación</option>
+            <option>Deportes</option>
+            <option>Muebles</option>
+            <option>Libreria</option>
+            <option>Limpieza</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form><br>
+
+    <a href="../pages/menu.html">Volver</a>
+</body>
+</html>
