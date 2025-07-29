@@ -1,8 +1,5 @@
 <?php
-include("../connection.php");
-
-echo "<p>Desde: $from</p>";
-echo "<p>Hasta: $until</p>";
+include("../connection.php"); 
 
 $sql= "SELECT cl.nomyape, c.fecha, c.forma_pago, c.total, dc.cantidad, p.nombre, p.punitario
 FROM cliente cl
