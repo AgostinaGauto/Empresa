@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos según calidad de proveedor y categoria</title>
+</head>
+<body>
+    <h1>Seleccione calidad de proveedor y categoria</h1>
+
+    <form action="../php/product/processQualityCategory.php" method="post">
+        <label>Calidad proveedor:</label>
+        <select name="calidad">
+            <option>Alta</option>
+            <option>Media</option>
+            <option>Baja</option>
+        </select><br><br>
+
+        <label>Categoria:</label>
+        <select name="categoria">
+            <option>Computación</option>
+            <option>Deportes</option>
+            <option>Muebles</option>
+            <option>Libreria</option>
+            <option>Limpieza</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form><br>
+
+    <a href="../pages/menu.html">Volver</a>
+</body>
+</html>
